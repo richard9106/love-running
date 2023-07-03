@@ -184,4 +184,10 @@ hr{
     border-radius: 50%;
 }
 
-/**/
+/*event times*/
+#time{
+    width: 100%;
+    overflow: hidden;
+    background: url(../images/dublin-city.webp) center center / cover;
+
+}
