@@ -211,6 +211,9 @@ hr {
 #time h2 {
     color: #fafafa;
 }
+#time h3 {
+    font-weight: 200;
+}
 
 /*footer*/
 footer {
@@ -269,6 +272,14 @@ footer {
         float: left;
         padding:0;
     }
+
+    #time > div{
+        width: 100%;
+        clear: both;
+        height:200px;
+        padding:0;
+    }
+
     hr{
         display: none;
     }
