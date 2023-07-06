@@ -211,6 +211,7 @@ hr {
 #time h2 {
     color: #fafafa;
 }
+
 #time h3 {
     font-weight: 200;
 }
@@ -244,91 +245,97 @@ footer {
     column-gap: 0;
 }
 
-#photos > img{
+#photos>img {
     width: 100%;
 }
 
 /*Media queries*/
 
 /* For large to medium screens size*/
-@media screen and (max-width:1200px){
-    #club-ethos{
+@media screen and (max-width:1200px) {
+    #club-ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
     }
-    #welcome{
+
+    #welcome {
         padding: 30px 0;
         margin: 0;
     }
-    #left-about, #right-about{
+
+    #left-about,
+    #right-about {
         width: 100%;
         float: right;
         padding: 0;
     }
-    #center-about{
+
+    #center-about {
         clear: both;
         width: 100%;
         float: left;
-        padding:0;
+        padding: 0;
     }
 
-    #time > div{
+    #time>div {
         width: 100%;
         clear: both;
-        height:200px;
-        padding:0;
+        height: 200px;
+        padding: 0;
     }
 
-    hr{
+    hr {
         display: none;
     }
 }
 
 /*For medium screen sizes from 950px wide and down*/
 @media screen and (max-width:950px) {
-    #menu{
+    #menu {
         clear: both;
-        float:left;
+        float: left;
         margin: 0 0 20px 30px;
         line-height: 25px;
 
     }
 
-    #cover-text{
+    #cover-text {
         left: 0;
     }
 
-    #club-ethos{
+    #club-ethos {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    .left-about-heading , .right-about-heading{
+    .left-about-heading,
+    .right-about-heading {
         width: inherit;
     }
 
     .left-about-heading h2,
-    .right-about-heading h2{
-            width: 100%;
-            text-align:center;
-    }
-    .left-about-heading p,
-    .right-about-heading p{
+    .right-about-heading h2 {
+        width: 100%;
         text-align: center;
-        padding:0 20px;
     }
 
-    #photos{
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    #photos {
         column-count: 3;
     }
 }
 
 /*galleri styles for mobile*/
 
-@media screen and (max-width:800px){
-    #photos{
+@media screen and (max-width:800px) {
+    #photos {
         column-count: 2;
     }
 }
